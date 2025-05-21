@@ -1,0 +1,232 @@
+.dflexBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.dflexAround{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.FCImg{
+    border: 4px solid #FF007F; 
+    border-radius: 8px; 
+    transition: box-shadow 0.4s ease,  box-shadow 0.4s ease;
+}
+
+.FCImg:hover{
+    box-shadow: 0 0 25px 10px rgba(255, 0, 127, 0.5);
+}
+
+.gradientBack{
+    padding: 0 100px;
+    padding-top: 120px;
+    background-color: black;
+}
+
+.footerBack{
+    background-color: black;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.half {
+    width: 50%;
+    height: 100%;
+}
+
+.HeaderBack{
+    background-color: black;
+    padding: 0 100px;
+}
+
+.VerticalLine {
+  width: 2px;
+  height: 1px;
+  background-color: white;
+}
+
+.ProfileHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    align-items: center;
+    border: 4px solid #FF007F; 
+    border-radius: 8px; 
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+.ProfileIcons{
+   padding-right: 15px;
+}
+
+.PersonalInfo{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.UserCard{
+    border: 4px solid #FF007F; 
+    border-radius: 8px; 
+    padding: 5px 10px;
+    margin-top: 70px;
+    width: 450px;
+    margin-bottom: 120px;
+}
+
+.UserCard h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.UserCard span{
+    color: #FF007F;
+    font-weight: 500;
+}
+
+.gradientBackProfile{
+    background-color: black;
+    padding: 0 350px;
+    padding-top: 120px;
+}
+
+.inputStyle {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 13px;
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+.PicksCard{
+    padding-top: 50px;
+    
+}
+
+.inputStyleS{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 13px;
+    padding: 15px 10px;
+    margin: 5px 0;
+}
+
+.formContainer {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.inputField{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+
+.a{
+    padding-bottom: 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.textWrapper {
+    width: 350px;
+    text-align: center;
+}
+
+.btnStyle{
+    font-weight: 500;
+    background-color: #FF007F;
+    color: white;
+    padding: 15px 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    display: block;
+    transition: box-shadow 0.4s ease,  box-shadow 0.4s ease;
+}
+
+.btnStyle:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 127, 0.5);
+    transform: scale(1.05);
+}
+
+.UpdateMessage{
+    color: #FF007F;
+    border: 2px solid #FF007F; 
+    border-radius: 8px; 
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.passwordStyle{
+    color: #FF007F;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gradientBackPassword{
+    background-color: black;
+    padding: 200px 350px;
+}
+
+.btnStylePassword{
+    font-weight: 500;
+    background-color: #FF007F;
+    color: white;
+    padding: 15px 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    transition: box-shadow 0.4s ease,  box-shadow 0.4s ease;
+}
+
+.btnStylePassword:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 127, 0.5);
+    transform: scale(1.05);
+}
+
+.PicksCardReg{
+    padding-top: 100px;
+}
+
+.textCenter{
+    padding-top: 30px;
+    text-align: center;
+    width: 600px;
+}
+
+.space{
+    height: 50px;
+}
+
+.size {
+    font-size: 150px;
+}
+
+.BigSpace{
+    height: 120px;
+}

@@ -1,0 +1,47 @@
+.MapBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.Map{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.Ch1{
+    padding-bottom: 20px;
+}
+
+.ContactRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.ContactItem {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 300px;
+}
+
+.Icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.Cp{
+    padding-top: 15px;
+}
+
+.VerticalLine {
+  width: 2px;
+  height: 60px;
+  background-color: white;
+}

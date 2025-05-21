@@ -1,0 +1,25 @@
+.CardStyle{
+    background-color: #FF007F;
+    border-radius: 20px;
+    padding: 35px 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}    
+
+.img{
+    border-radius: 20px;
+    display: block;
+    align-items: center;
+    width: 150px; 
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.devh1{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5px;
+}

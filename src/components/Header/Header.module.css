@@ -1,0 +1,42 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 500px;
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.btnStyle{
+    font-weight: 500;
+    background-color: #FF007F;
+    color: white;
+    padding: 10px 27px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease,  box-shadow 0.4s ease;
+}
+
+.btnStyle:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 127, 0.5);
+    transform: scale(1.05);
+}
+
+.navLink {
+    transition: color 0.3s ease;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    color: #ff007f;
+}
+  
+.active {
+    color: #ff007f;
+    border-bottom: 2px solid #ff007f;
+    font-weight: bold;
+}

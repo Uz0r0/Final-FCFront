@@ -1,0 +1,35 @@
+.btnStyle{
+    font-weight: 500;
+    margin: 120px auto;
+    display: block;
+    background-color: #FF007F;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.4s ease,  box-shadow 0.4s ease;
+}
+
+.btnStyle:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 127, 0.5);
+    transform: scale(1.05);
+}
+
+.Rulesh1{
+    font-size: 45px;
+    padding-bottom: 25px;
+}
+
+.RulesLi{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    width: 450px;
+}
+
+.RulesLi img{
+    padding-right: 10px;
+}

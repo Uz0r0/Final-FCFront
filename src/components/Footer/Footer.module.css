@@ -1,0 +1,25 @@
+.Footer{
+    padding: 30px 100px 3px 100px;
+}
+
+.navLink {
+    transition: color 0.3s ease;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navLink:hover {
+    color: #ff007f;
+}
+
+.navWidth{
+    width: 600px;
+}
+
+.socImg{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin: 0 auto;
+}
